@@ -35,6 +35,7 @@ nav{
 
 a{
     text-decoration: none;
+    color: #000000;
 }
 
 .titulo1 {
@@ -80,7 +81,7 @@ a{
 .freelance {
     padding-right: 55px;
     border-right: 20px solid  #bb6cb8;
-    font-size: 65px;
+    font-size: 73px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -104,6 +105,10 @@ a{
     padding-left: 30px;
 }
 
+.BA {
+    font-size: 25px;
+}
+
 .imagen1 {
     padding-right: 100px;
    
@@ -117,7 +122,7 @@ a{
    font-weight: bold;
 }
 
-img {
+.FotoperfilINICIO {
     border-radius: 50%;
     border: 10px solid white;
     box-shadow: 4px 4px 8px #888888;
@@ -155,6 +160,8 @@ button:hover {
   
 
 /* ----------- FIN HERO ----------- */
+
+/* ----------- SECCION 1 ----------- */
 
 .acercademi2 {
     background-color: #ff91fb;
@@ -272,36 +279,328 @@ button:hover {
     display: flex;
     justify-content: center;
     padding-left: 120px;
+    padding-bottom: 70px;
 }
 
 .datos1, .datos2, .datos3, .datos4 {
     padding-right: 133px;
 }
 
+
+
+/* -----------  FIN SECCION 1 --------- */
+
+
+
+/* -----------  SECCION 2 --------- */
+
 .GRIS {
-  color: #888888;
+    color: #7c7d7d;
+  }
+
+.Loquehago {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-/*
-.datos1 {
-    background-color: violet;
+.gris {
+    background-color: #f8f9fa; 
+    padding-top: 5px;
+   
+  }
+
+  .Loquehago {
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
-.datos2 {
-    background-color: aqua;
+.centro1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .iconos1 {
+    color: #ff91fb;
+    font-size: 40px
 }
 
-.datos3 {
-    background-color: red;
-}
-.datos4 {
-    background-color: #bb6cb8;
+.espacio1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
+.espacio2ycolor {
+    margin-bottom: 50px;
+    color: #888888;
+    text-align: center;
+}
+
+.centro1 {
+    border-color: #212529;
+    border-right: 50px, #212529;
+    width: 293px;
+}
+
+
+
+
+/* ----------- FIN SECCIÓN 2----------- */
+
+
+
+/* ----------- SECCIÓN 3----------- */
+
+.Gris2 {
+    color: #888888;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e2e0e0;
+}
+
+.Gris3 {
+    color: #888888;
+}
+
+.Educacionyexperiencia {
+    display: flex;
+     /*background-color: red; */
+    font-size: 14px;
+    justify-content: center;
+}
+
+.Educacionyexperiencia1 {
+    display: flex;
+    /*background-color: red; */
+    font-size: 17px;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.Educacion, .Experiencia {
+   padding-left: 10px;
+   padding-right: 10px;
+   width: 450px;
+}
+
+.Laeducacion {
+    padding-top: 20px;
+}
+
+.Tituloseye {
+   background-color: violet;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    width: 1000px;
+}
+
+.paddingbottom1 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.paddingbottom2 {
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.bordecolorR {
+    border-left: #ff91fb;
+}
+
+.Linea1 {
+    padding-top: 10px;
+    background-color: #ff91fb;
+    width: 2px;
+}
+
+.Habilidades {
+    font-size: 27px;
+    padding-left: 210px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.borde3 {
+    padding-right: 30px;
+}
 
 
 
 
 
-/* ----------- SECCIÓN 1----------- */ 
+.progress-bar {
+    background-color: #e9ecef;
+    height: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 450px;
+  }
 
+  .progress-bar-fill {
+    background-color: #ff91fb;
+    height: 100%;
+    border-radius: 5px;
+    width: 0;
+    transition: width 0.25s;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .BARRASDEPROGRESO {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 200px;
+  }
+
+
+
+.BotonCV {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+  .BCV {
+    background-color: white;
+    color: #000000;
+
+
+}
+  .BCV:hover {
+    background: #ff91fb;
+    color: #000000
+  
+}
+
+
+
+/* -----------FIN SECCIÓN 3----------- */
+
+/* ----------- SECCIÓN 4----------- */
+
+.fondoportfolio {
+    background-color: #ff91fb;
+    width: 4.6%;
+    display: flex;
+    text-align: center;
+}
+
+.Imgportfolio {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    padding-left: 200px;
+    padding-bottom: 70px;
+}
+
+
+.Fpf {
+    width: 300px;
+    padding: 10px;
+}
+
+
+/* ----------- FIN SECCIÓN 4----------- */
+
+/* ----------- FOOTER----------- */
+
+.Footerr {
+    background-color: #ff91fb;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.Footertexto {
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+.Footertitulo {
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-bottom: 10px;
+}
+
+.Footerp {
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+
+.Footerpp {
+    padding-left: 150px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.Footerb {
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.Footericonos {
+    padding-left: 150px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #5d5c5c;
+}
+
+.FORMULARIO {
+padding-right: 50px;
+padding-left: 60px;
+padding-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.Casitodos, textarea {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    width: 500px;
+    border-bottom: 1px solid black;
+    background-color: #ff91fb;
+}
+
+textarea {
+    padding-bottom: 50px;
+}
+
+label {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Botonenviar {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    width: 100px;
+    cursor: pointer;
+   transition: all 0.3s ease;
+   position: relative;
+   display: inline-block;
+   outline: none;
+
+}
+
+.Botonenviar:hover {
+    background: #ff91fb;
+    color: #212529
+  }

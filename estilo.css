@@ -37,6 +37,14 @@ nav{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.icon:hover {
+    color:#ff91fb
+}
+
+.linkgris:hover {
+    color: #ff91fb;
+}
+
 a{
     text-decoration: none;
     color: #000000;
@@ -232,14 +240,21 @@ button:hover {
   
   .nombreD {
     font-style: bold;
-    text-decoration: underline #ff91fb;;
     font-size: 30px;
+    text-decoration: underline #ff91fb;
+  line-height: 50px;
   }
+
+  /*border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #ff91fb;*/
+
+
   
   .holaparrafo {
     margin-top: 10px;
     text-align: left;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 170%;
   }
 
@@ -252,7 +267,7 @@ button:hover {
     padding-bottom: 30px;
     padding-top: 1px;
     padding-right: 100px;
-    padding-left: 50px;
+    padding-left: 10px;
 }
   .circulo10 {
     width: 80px;
@@ -302,6 +317,10 @@ button:hover {
 
 .datos1, .datos2, .datos3, .datos4 {
     padding-right: 133px;
+}
+
+.GRIS {
+    padding-bottom: 8px;
 }
 
 
@@ -644,6 +663,16 @@ label {
     background: #ff91fb;
     color: #212529
   }
+
+  .icon2:hover {
+    color: #5d5c5c;
+  }
+
+  .icon2 {
+    padding-right: 5px;
+  }
+
+
 
   /* ----------- FIN FOOTER----------- */
 

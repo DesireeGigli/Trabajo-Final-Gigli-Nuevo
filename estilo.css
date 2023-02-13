@@ -699,3 +699,8 @@ label {
       width: 150px;
       height: 150px;
     }
+
+    @media (max-width: 767px) {
+        .TODOPRESENTACION {
+          width: 100%;
+        }

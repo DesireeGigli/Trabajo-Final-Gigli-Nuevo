@@ -28,9 +28,9 @@ header{
 }
 
 nav{
-    width: 700px;
+    width: 43.75rem;
     margin: 0 auto;
-    font-size: 15px;
+    font-size: 0.938rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,7 +54,7 @@ a{
 
 .titulo1 {
     padding-left: 100px;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -95,7 +95,7 @@ a{
 .freelance {
     padding-right: 55px;
     border-right: 20px solid  #bb6cb8;
-    font-size: 73px;
+    font-size: 4.563rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -114,14 +114,14 @@ a{
 }
 
 .contactameb {
-    font-size: 13px;
+    font-size: 0.813rem;
     font-weight: bold;
     text-decoration: underline;
     padding-left: 30px;
 }
 
 .BA {
-    font-size: 25px;
+    font-size: 1.563rem;
 }
 
 .imagen1 {
@@ -133,7 +133,7 @@ a{
     padding-top: 70px;
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 1.563rem;
    font-weight: bold;
 }
 
@@ -146,7 +146,7 @@ a{
 }
 
 .hola{
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -198,7 +198,7 @@ button:hover {
 }
 
 .conocememas {
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .Acercayconoceme {
@@ -235,12 +235,12 @@ button:hover {
   
   .titulohola {
     text-align: left;
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   
   .nombreD {
     font-style: bold;
-    font-size: 30px;
+    font-size: 1.875rem;
     text-decoration: underline #ff91fb;
   line-height: 50px;
   }
@@ -254,7 +254,7 @@ button:hover {
   .holaparrafo {
     margin-top: 10px;
     text-align: left;
-    font-size: 17px;
+    font-size: 1.063rem;
     line-height: 170%;
   }
 
@@ -285,7 +285,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-content: flex-start;
-    font-size: 120px;
+    font-size: 7.5rem;
     font-weight: bold;
     margin-top: -15px;
 }
@@ -296,7 +296,7 @@ button:hover {
 }
 
 .añosde, .experiencia {
-    font-size: 25px;
+    font-size: 1.563rem;
 }
 
 .Loquehago1 {
@@ -361,7 +361,7 @@ button:hover {
 
   .iconos1 {
     color: #ff91fb;
-    font-size: 40px
+    font-size: 2.5rem ;
 }
 
 .espacio1 {
@@ -403,14 +403,14 @@ button:hover {
 .Educacionyexperiencia {
     display: flex;
      /*background-color: red; */
-    font-size: 14px;
+    font-size: 0.875rem;
     justify-content: center;
 }
 
 .Educacionyexperiencia1 {
 
     display: flex;
-    font-size: 18px;
+    font-size: 1.125rem;
     padding-left: 195px;
     padding-bottom: 15px;
 }
@@ -433,7 +433,7 @@ padding-left: 10px;
 .Tituloseye {
    background-color: violet;
     display: flex;
-    font-size: 14px;
+    font-size: 0.875rem;
     justify-content: center;
     width: 1000px;
 }
@@ -444,7 +444,7 @@ padding-left: 10px;
 }
 
 .paddingbottom2 {
-    font-size: 20px;
+    font-size: 1.25rem;
     padding-top: 50px;
 }
 
@@ -460,7 +460,7 @@ padding-left: 10px;
 }
 
 .Habilidades {
-    font-size: 27px;
+    font-size: 1.688rem;
     padding-left: 200px;
     padding-top: 60px;
     padding-bottom: 30px;
@@ -584,7 +584,7 @@ padding-left: 10px;
 .Footerpp {
     padding-left: 150px;
     padding-bottom: 50px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 170%;
 }
 
@@ -596,7 +596,7 @@ padding-left: 10px;
 .Footericonos {
     padding-left: 150px;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-decoration: none;
     color: #5d5c5c;
 }
@@ -640,7 +640,7 @@ outline: 1px solid black;
 label {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 15px;
+    font-size: 0.938rem;git
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -680,3 +680,22 @@ label {
     background-color: #000000;
     padding: 15px;
   }
+
+  
+
+  /* RESPONSIVE */
+
+  @media (max-width: 767px) {
+    .hola {
+      font-size: 24px;
+    }
+    .freelance {
+      font-size: 24px;
+    }
+    .BA {
+      font-size: 16px;
+    }
+    .FotoperfilINICIO {
+      width: 150px;
+      height: 150px;
+    }

@@ -90,7 +90,6 @@ a{
     border-right: 20px solid  #bb6cb8;
     font-size: 4.563rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 .Boton1 {
@@ -676,7 +675,7 @@ label {
 
   
 
-  /* RESPONSIVE */
+             /* RESPONSIVE */
 
 
 
@@ -684,7 +683,7 @@ label {
   
   @media only screen and (max-width: 480px){ 
   header {
-    background-color: aqua;
+
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -697,7 +696,7 @@ label {
     justify-content: center;
     flex-direction: column;
     font-size: 0.938rem;
-    line-height: 50git addpx;
+    line-height: 50px;
     width: 25.5rem;
     margin: 0 auto;
     font-size: 1.5rem;
@@ -722,28 +721,113 @@ label {
       }
     
      
-     
-      
 
-        /* FIN HEADER */
+        /* ---- FIN HEADER ----- */
 
-  @media (max-width: 767px) {
+        /* ------ HERO ------ */
+
+
+  @media (max-width: 480px) {
+    .FotoperfilINICIO {
+      width: 200px;
+      height: 200px;
+    }
+    .hero {
+        width: 400px;
+    }
     .hola {
-      font-size: 24px;
+        font-size: 1.5rem;
     }
     .freelance {
-      font-size: 24px;
+        font-size: 2.5rem;
+        width: 220px;
     }
-    .BA {
-      font-size: 16px;
+    .BA{
+        font-size: 1.3rem;
     }
-    .FotoperfilINICIO {
-      width: 150px;
-      height: 150px;
+    .hero {
+        background-color: #ff91fb;
+        padding-top: 20px;
+        padding-bottom: 5px;
     }
+    .Presentacion, .Boton1 {
+        padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 200px;
+    width: 500px;
+    }
+    .Boton1 {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 40px;
+        padding-right: 30px;
+        width: 300px;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    button {
+        padding: 30px;
+        font-size: 1.3rem;
+    }
+    
+    .contactameb {
+        font-size: 1.5rem;
+        padding-left: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .flechita1 {
+        font-size: 5rem;
+    }
+    .bi-arrow-down-circle {
+        font-size: 2rem; 
+        line-height: 30px; 
+      }
+      .flechita {
+        font-size: 3rem;
+      }
+      .TODOHERO {
+        display: flex;
+        flex-direction: column;
+      }
+      .imagen1{
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+      }
+    
+  
+    /*
 
     @media (max-width: 767px) {
         .TODOPRESENTACION {
           width: 100%;
         }
 
+        .hero {
+            background-color: #ff91fb;
+            padding-top: 150px;
+            padding-bottom: 5px;
+        }
+        
+        .Presentacion, .Boton1 {
+            padding-left: 200px;
+        }
+        
+        .Presentacion {
+            padding-top: 100px;
+            padding-bottom: 30px;
+            padding-left: 130px;
+            padding-right: 200px;
+            width: 500px;
+        }
+        
+        .freelance {
+            padding-right: 55px;
+            border-right: 20px solid  #bb6cb8;
+            font-size: 4.563rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }

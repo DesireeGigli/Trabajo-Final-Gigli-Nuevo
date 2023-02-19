@@ -669,7 +669,7 @@ label {
 
   
 
-             /* RESPONSIVE */
+          /* RESPONSIVE */
 
 
 
@@ -811,7 +811,7 @@ label {
            }
            .conocememas {
             font-size: 2rem;
-            width: 300px;
+            width: 350px;
             display: flex;
             justify-content: center;
         }
@@ -917,4 +917,22 @@ label {
 
      /* ------ FIN SECCIÓN 3 ------ */
 
-     
+     /*--------- SECCIÓN 4 ------*/
+
+     @media (max-width: 480px) {    
+        .Imgportfolio {
+            display: flex;
+            flex-direction: column;
+            padding-left: 50px;
+            }
+        .fondoportfolio {
+            width: 23%;
+            font-size: 1.5rem;
+             }
+         .conocememas {
+         display: flex;
+         text-align: center;
+         }
+
+         
+        

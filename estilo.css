@@ -9,17 +9,10 @@ html {
 
 /*  HEAD  */
 
-p {
+p, label, b, h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-b {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
 header{
     display: flex;
@@ -685,6 +678,55 @@ label {
 
   /* RESPONSIVE */
 
+
+
+  /* ------ HEADER   ------ */
+  
+  @media only screen and (max-width: 480px){ 
+  header {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+  
+  @media only screen and (max-width: 480px) {
+    nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.938rem;
+    line-height: 50git addpx;
+    width: 25.5rem;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    }
+
+    @media only screen and (max-width: 480px){ 
+        .titulo1 {
+            padding-left: 36%;
+            font-size: 3rem;
+            padding-bottom: 30px;
+        
+      }
+    
+      @media only screen and (max-width: 480px){ 
+        .iconosredes {
+        padding-top: 30px;
+        padding-left: 35%;
+        text-decoration: none;
+        display: flex;
+        font-size: 2rem;
+
+      }
+    
+     
+     
+      
+
+        /* FIN HEADER */
+
   @media (max-width: 767px) {
     .hola {
       font-size: 24px;
@@ -704,3 +746,4 @@ label {
         .TODOPRESENTACION {
           width: 100%;
         }
+

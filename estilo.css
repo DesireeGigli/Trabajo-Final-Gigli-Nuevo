@@ -389,7 +389,6 @@ button:hover {
 
 .Educacionyexperiencia {
     display: flex;
-     /*background-color: red; */
     font-size: 0.875rem;
     justify-content: center;
 }
@@ -888,4 +887,34 @@ label {
 
 
 
- 
+   /* ------ FIN SECCIÓN 2 ------ */
+
+     /* ------ SECCIÓN 3 ------ */
+
+     @media (max-width: 480px) {    
+       .Educacionyexperiencia1 {
+     
+        font-size: 1.125rem;
+    padding-left: 10px;
+    padding-bottom: 30px;
+       }
+    .Educacion1 {
+    padding-right: 50px;
+    padding-left: 10px;
+    }
+    .BARRASDEPROGRESO {
+        padding-left: 50px;
+    }
+    .progress-bar {
+        width: 320px;
+    }
+    .Habilidades {
+        font-size: 1.688rem;
+        padding-left: 115px;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+     /* ------ FIN SECCIÓN 3 ------ */
+
+     

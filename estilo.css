@@ -884,6 +884,9 @@ label {
     display: flex;
     justify-content: center;
 }
+.gris {
+    width: 400x;
+}
 
 
 
@@ -893,10 +896,9 @@ label {
 
      @media (max-width: 480px) {    
        .Educacionyexperiencia1 {
-     
-        font-size: 1.125rem;
-    padding-left: 10px;
-    padding-bottom: 30px;
+      font-size: 1.125rem;
+      padding-left: 10px;
+      padding-bottom: 30px;
        }
     .Educacion1 {
     padding-right: 50px;
@@ -913,6 +915,9 @@ label {
         padding-left: 115px;
         padding-top: 60px;
         padding-bottom: 30px;
+    }
+    .gris{
+        width: 410px;
     }
 
      /* ------ FIN SECCIÓN 3 ------ */
@@ -934,5 +939,69 @@ label {
          text-align: center;
          }
 
-         
-        
+/*--------- FIN SECCIÓN 4 ------*/
+
+
+  /*--------- FOOTER ------*/
+  
+  @media (max-width: 480px) {    
+    .Footerr {
+        display: flex;
+        flex-direction: column;
+        width: 410px;
+    }
+    .Footertexto{
+         padding-left: 1px;
+         width: 360px;
+        }
+   .Footertitulo {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+   }
+   .Footerpp {
+    display: flex;
+    text-align: center;
+    padding-left: 50px;
+    font-size: 1.5rem;
+   }
+   .Footerb, .Footerp {
+    display: flex;
+    text-align: center;
+    padding-left: 90px;
+    font-size: 1.5rem;
+    padding-top: 5px;
+   }
+   .Footericonos {
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    justify-content: space-between;
+    padding-left: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+   }
+   .FORMULARIO {
+    width: 360px;
+    padding-left: 55px;
+    padding-top: 100px;
+   }
+   .Casitodos, textarea {
+    width: 300px;
+   }
+
+
+
+
+   @media (max-width: 480px) {
+   .ULTIMONEGRO {
+    width: 400px;
+   }
+
+   @media (max-width: 480px) {
+    body, head, main { 
+        width: 400px;
+        }

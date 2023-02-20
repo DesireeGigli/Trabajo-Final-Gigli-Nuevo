@@ -233,8 +233,8 @@ button:hover {
   .nombreD {
     font-style: bold;
     font-size: 1.875rem;
-    text-decoration: underline #ff91fb;
-  line-height: 50px;
+    line-height: 80px;
+     border-bottom: solid #ff91fb;
   }
 
 
@@ -242,7 +242,7 @@ button:hover {
     margin-top: 10px;
     text-align: left;
     font-size: 1.063rem;
-    line-height: 170%;
+    line-height: 180%;
   }
 
   .circuloyexperiencia {
@@ -690,10 +690,10 @@ label {
     justify-content: center;
     flex-direction: column;
     font-size: 0.938rem;
-    line-height: 50px;
+    line-height: 40px;
     width: 25.5rem;
     margin: 0 auto;
-    font-size: 1.5rem;
+    font-size: 2rem;
     }
 
     @media only screen and (max-width: 480px){ 
@@ -707,10 +707,10 @@ label {
       @media only screen and (max-width: 480px){ 
         .iconosredes {
         padding-top: 30px;
-        padding-left: 35%;
+        padding-left: 38%;
         text-decoration: none;
         display: flex;
-        font-size: 2rem;
+        font-size: 1.5rem;
 
       }
     
@@ -762,8 +762,8 @@ label {
         flex-direction: column;
     }
     button {
-        padding: 30px;
-        font-size: 1.3rem;
+        padding: 20px;
+        font-size: 1rem;
     }
     
     .contactameb {
@@ -820,7 +820,6 @@ label {
             flex-direction: column;
         }
         .holasoy {
-    
             padding-left: 10px;
         }
         .holasoy1 {
@@ -829,13 +828,13 @@ label {
             width: 300px;
           }
           .titulohola {
-            font-size: 3rem;
+            font-size: 2.5rem;
           }
           .nombreD {
             font-size: 3rem;
           }
           .holaparrafo {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
           }
           .circuloyexperiencia {
             width: 280px;
@@ -853,11 +852,13 @@ label {
             padding-left: 70px;
         }
         .GRIS, b {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
+            padding-top: 26px;
+    
         }
         .datos1, .datos2, .datos3, .datos4 {
             padding-right: 10px;
-            line-height: 40px;
+            line-height: 30px;
             
         }
         
@@ -871,13 +872,14 @@ label {
     font-size: 1.45rem;
 }
 .iconos1 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .espacio1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    text-align: center;
 }
 .espacio2ycolor {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 300px
 }
 .Loquehago {
@@ -918,6 +920,9 @@ label {
     }
     .gris{
         width: 410px;
+    }
+    .BCV {
+       padding: 10px;
     }
 
      /* ------ FIN SECCIÓN 3 ------ */
@@ -966,19 +971,19 @@ label {
     display: flex;
     text-align: center;
     padding-left: 50px;
-    font-size: 1.5rem;
+    font-size: 1rem;
    }
    .Footerb, .Footerp {
     display: flex;
     text-align: center;
     padding-left: 90px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-top: 5px;
    }
    .Footericonos {
     display: flex;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     justify-content: space-between;
     padding-left: 50px;
     margin-left: 60px;
@@ -1005,3 +1010,4 @@ label {
     body, head, main { 
         width: 400px;
         }
+
